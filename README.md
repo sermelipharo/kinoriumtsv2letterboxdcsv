@@ -68,4 +68,3 @@ The resulting files can then be imported into Letterboxd. To do this:
 - It is recommended to check the "Hide successful matches" box to more easily correct unrecognized movies.
 
 Make sure to select the correct files in the appropriate dialog boxes to ensure proper data processing.
-```
