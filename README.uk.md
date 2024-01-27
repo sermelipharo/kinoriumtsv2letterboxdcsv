@@ -1,5 +1,3 @@
-Звісно, ось переклад документації на українську мову:
-
 # Конвертер Експорту Кіноріуму в Імпорт Letterboxd
 
 ![Static Badge](https://img.shields.io/badge/letterboxd-2C3440?logo=letterboxd) ![Static Badge](https://img.shields.io/badge/python3-grey?style=flat&logo=python&logoColor=white) [![en](https://img.shields.io/badge/lang-en-FF8002.svg)](README.md) [![ru](https://img.shields.io/badge/lang-ru-00E153.svg)](README.ru.md) [![ua](https://img.shields.io/badge/lang-ua-41BDF3.svg)](README.uk.md)
