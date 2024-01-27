@@ -12,36 +12,37 @@
 
 ## Установка
 Для работы скрипта необходим Python 3 и библиотеки Pandas и Tkinter. Поскольку Tkinter обычно идет в комплекте с Python, он может не требовать отдельной установки. Однако, если в вашей системе его нет, вот команды для его установки в различных операционных системах:
-
-### Debian/Ubuntu:
+### Tkinter
+#### Debian/Ubuntu:
 ```bash
 sudo apt-get install python3-tk
 ```
 
-### Fedora:
+#### Fedora:
 ```bash
 sudo dnf install python3-tkinter
 ```
 
-### MacOS (с использованием Homebrew):
+#### MacOS (с использованием Homebrew):
 ```bash
 brew install python-tk
 ```
 
-### Arch Linux:
+#### Arch Linux:
 ```bash
 sudo pacman -Syu tk --noconfirm
 ```
 
-### RHEL/CentOS 6/7:
+#### RHEL/CentOS 6/7:
 ```bash
 sudo yum install -y python3-tkinter
 ```
 
-### OpenSUSE:
+#### OpenSUSE:
 ```bash
 sudo zypper in -y python-tk
 ```
+### Pandas
 Чтобы установить необходимые библиотеки, используйте следующую команду:
 
 ```bash
