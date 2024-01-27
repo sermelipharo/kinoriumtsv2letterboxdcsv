@@ -1,6 +1,6 @@
 # Конвертер Экспорта Кинориума в Импорт Letterboxd
 
-[![ru](https://img.shields.io/badge/lang-ru-red.svg)](README.ru.md) [![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
+![Static Badge](https://img.shields.io/badge/letterboxd-gray?logo=letterboxd) ![Static Badge](https://img.shields.io/badge/python3-FF8002?style=flat&logo=python&logoColor=white) [![en](https://img.shields.io/badge/lang-en-00E153.svg)](README.md) [![ru](https://img.shields.io/badge/lang-ru-41BDF3.svg)](README.ru.md)
 
 ## Описание
 Скрипт kinoriumtsv2letterboxdcsv  предназначен для обработки и преобразования данных о фильмах из формата бекапа в Kinorium'е в формат CSV для импорта совместимый с Letterboxd. Он объединяет данные из двух TSV файлов (файл с оценками и файл с комментариями), фильтрует их (оставляя только фильмы и мультфильмы), и затем экспортирует результаты в формате CSV, поделенные на 1900 строк (лимит Letterboxd'a).
