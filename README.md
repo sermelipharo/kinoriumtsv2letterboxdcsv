@@ -1,6 +1,6 @@
 # Kinorium Export to Letterboxd Import Converter
 
-![Static Badge](https://img.shields.io/badge/letterboxd-gray?logo=letterboxd) ![Static Badge](https://img.shields.io/badge/python3-FF8002?style=flat&logo=python&logoColor=white) [![en](https://img.shields.io/badge/lang-en-00E153.svg)](README.md) [![ru](https://img.shields.io/badge/lang-ru-41BDF3.svg)](README.ru.md)
+![Static Badge](https://img.shields.io/badge/letterboxd-2C3440?logo=letterboxd) ![Static Badge](https://img.shields.io/badge/python3-grey?style=flat&logo=python&logoColor=white) [![en](https://img.shields.io/badge/lang-en-FF8002.svg)](README.md) [![ru](https://img.shields.io/badge/lang-ru-00E153.svg)](README.ru.md) [![ua](https://img.shields.io/badge/lang-ua-41BDF3.svg)](README.uk.md)
 
 ## Description
 The `kinoriumtsv2letterboxdcsv` script is designed to process and convert movie data from the Kinorium backup format to a CSV format compatible for import into Letterboxd. It combines data from two TSV files (a file with ratings and a file with comments), filters them (leaving only movies and animated films), and then exports the results in CSV format, divided into 1900 lines (Letterboxd's limit).
