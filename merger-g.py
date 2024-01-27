@@ -8,6 +8,10 @@ locale.setlocale(locale.LC_CTYPE, '')
 current_locale, _ = locale.getlocale()
 
 # Установка текстов интерфейса в зависимости от локали
+if current_locale is None:
+    locale.setlocale(locale.LC_CTYPE, 'en_US.UTF-8')
+    current_locale, _ = locale.getlocale()
+
 if current_locale.startswith(('hy', 'ru', 'be', 'uk')):
     # Русский язык
     votes_file_title = "Выберите файл с оценками"
@@ -43,6 +47,8 @@ def process_files(votes_file, comments_file, output_path):
     # Фильтрация, чтобы оставить только фильмы и мультфильмы
     film_types = ['Фильм', 'Мультфильм', 'Movie', 'Animation Movie', 'Фільм', 'Мультфільм']
     df_votes = df_votes[df_votes['Type'].isin(film_types)]
+    df_votes['Year'] = df_votes['Year'].astype(str)
+    df_comments['Year'] = df_comments['Year'].astype(str)
 
     # Обработка в зависимости от наличия столбца 'Original Title'
     if 'Original Title' in df_votes.columns:
