@@ -7,11 +7,11 @@ import locale
 locale.setlocale(locale.LC_CTYPE, '')
 current_locale, _ = locale.getlocale()
 
-# Установка текстов интерфейса в зависимости от локали
+# Если локаль не установлена, установить англоязычную локаль
 if current_locale is None:
     locale.setlocale(locale.LC_CTYPE, 'en_US.UTF-8')
-    current_locale, _ = locale.getlocale()
 
+# Установка текстов интерфейса в зависимости от локали
 if current_locale.startswith(('hy', 'ru', 'be', 'uk')):
     # Русский язык
     votes_file_title = "Выберите файл с оценками"
