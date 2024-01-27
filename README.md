@@ -12,36 +12,38 @@ The `kinoriumtsv2letterboxdcsv` script is designed to process and convert movie 
 
 ## Installation
 The script requires Python 3, Pandas, and Tkinter. Since Tkinter usually comes with Python, it may not require separate installation. However, if it's not available in your system, here are the commands for installing it in different operating systems:
-
-### Debian/Ubuntu:
+### Tkinter
+#### Debian/Ubuntu:
 ```bash
 sudo apt-get install python3-tk
 ```
 
-### Fedora:
+#### Fedora:
 ```bash
 sudo dnf install python3-tkinter
 ```
 
-### MacOS (using Homebrew):
+#### MacOS (using Homebrew):
 ```bash
 brew install python-tk
 ```
 
-### Arch Linux:
+#### Arch Linux:
 ```bash
 sudo pacman -Syu tk --noconfirm
 ```
 
-### RHEL/CentOS 6/7:
+#### RHEL/CentOS 6/7:
 ```bash
 sudo yum install -y python3-tkinter
 ```
 
-### OpenSUSE:
+#### OpenSUSE:
 ```bash
 sudo zypper in -y python-tk
 ```
+
+### Pandas
 To install the required libraries, use the following command:
 
 ```bash
