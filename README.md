@@ -11,7 +11,7 @@ The `kinoriumtsv2letterboxdcsv` script is designed to process and convert movie 
 - Exporting processed data to CSV files compatible with Letterboxd
 
 ## Installation
-The script requires Python 3, Pandas, and Tkinter. Since Tkinter usually comes with Python, it may not require separate installation. However, if it's not available in your system, here are the commands for installing it in different operating systems:
+The script requires Python 3, Pandas, Pyarrow and Tkinter. Since Tkinter usually comes with Python, it may not require separate installation. However, if it's not available in your system, here are the commands for installing it in different operating systems:
 ### Tkinter
 #### Debian/Ubuntu:
 ```bash
@@ -48,6 +48,12 @@ To install the required libraries, use the following command:
 
 ```bash
 pip install Pandas
+```
+### Pyarrow
+As of the next major release of pandas (pandas 3.0), Pyarrow will become a required dependency. If Pyarrow is not already installed, you can install it using the following command:
+
+```bash
+pip install pyarrow
 ```
 
 ## Usage
